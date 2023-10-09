@@ -19,10 +19,11 @@ void Task1(float x, float y, float radius, float a)
 
 int Task2(int a, int b, int c)
 {
-    std::cout << a + b + c << std::endl;
-    if ((a + b + c) % 2 == 0)
+    int sum = a + b + c;
+    std::cout << sum << std::endl;
+    if (sum % 2 == 0)
     {
-        return a + b + c;
+        return sum;
     }
     else
     {
